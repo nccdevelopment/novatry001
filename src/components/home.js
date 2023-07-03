@@ -58,7 +58,7 @@ function Home() {
   }, []);
 
   return (
-    <>
+    <div>
       <section id="header">
         <div className="logo-container">
           <a href="#"><img src={logoImage} className="logo" alt="" /></a>
@@ -141,7 +141,7 @@ function Home() {
 
 
 
-    </>
+    </div>
   );
 }
 
