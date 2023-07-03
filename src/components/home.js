@@ -86,7 +86,7 @@ function Home() {
         <Link to="/about" className="learn-more-button">Learn More</Link>
       </section>
 
-      <section id="content-section" style={{ padding: '200px' }}>
+      <section id="content-section" style={{ padding: '75px' }}>
         
         <div className="box-container">
           <div className="box">
@@ -138,10 +138,7 @@ function Home() {
     </div>
   </div>
 </footer>
-
-
-
-    </div>
+</div>
   );
 }
 
