@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "scr/app.js",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
