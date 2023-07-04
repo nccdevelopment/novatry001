@@ -93,7 +93,7 @@ export const Contact = () => {
           <div>
             <p style={{ fontSize: '18px', fontWeight: 'bold', marginBottom: '8px' }}>Contact information:</p>
             <p style={{ marginBottom: '4px' }}>
-              Phone: <a href="tel:(517)-591-6352" style={{ color: 'gold' }}>(517)-591-6352</a>
+              Phone: <a href="tel:(516)-591-6352" style={{ color: 'gold' }}>(516)-591-6352</a>
             </p>
             <p style={{ marginBottom: '4px' }}>
               Email: <a href="mailto:novacore@novacoreconsulting.com" style={{ color: 'gold' }}>novacore@novacoreconsulting.com</a>
