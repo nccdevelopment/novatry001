@@ -132,7 +132,7 @@ function Service() {
           </div>
         </div>
       </section>
-      <section style={{ backgroundColor: '#333333', color: 'white', padding: '100px' }}>
+      <section style={{ backgroundColor: '#333333', color: 'white', padding: '60px' }}>
       <h2>Services</h2>
         <section id="content-section" style={{ padding: '10px' }}>
           <div className="box-container">
@@ -140,7 +140,7 @@ function Service() {
               <img src={webimg} alt="Image 1" />
               <div className="box-overlay">
                 <h3>Website Development</h3>
-                <p>Website development is a crucial aspect of establishing a strong online presence. It encompasses the process of designing, building, and maintaining websites that are visually appealing, user-friendly, and technically robust. From crafting engaging user interfaces to implementing responsive designs, website developers utilize programming languages, frameworks, and content management systems to bring ideas to life on the digital platform. Effective website development enables businesses to connect with their target audience, showcase their products or services, and achieve their online goals.</p>
+                <p>Website development is a crucial aspect of establishing a strong online presence. It encompasses the process of designing, building, and maintaining websites that are visually appealing, user-friendly, and technically robust. From crafting engaging user interfaces to implementing responsive designs, website developers utilize programming languages, frameworks, and content management systems to bring ideas to life on the digital platform.</p>
               </div>
             </div>
             <div className="box">
@@ -152,12 +152,13 @@ function Service() {
             </div>
           </div>
         </section>
-        <section id="about-section" style={{ margin: '150px' }}>
+        <section id="about-section" style={{ margin: '40px' }}>
           <h2>Our Service</h2>
-          <p style={{ textAlign: 'justify', lineHeight: '1.5', letterSpacing: '1px' }}>{companyDescription}</p>
-          <p style={{ textAlign: 'justify', lineHeight: '1.5', letterSpacing: '1px' }}>{servicesOffered}</p>
-          <p style={{ textAlign: 'justify', lineHeight: '1.5', letterSpacing: '1px' }}>{customerFocus}</p>
-          <p style={{ textAlign: 'justify', lineHeight: '1.5', letterSpacing: '1px' }}>{experience}</p>
+          <p>At our company, we are dedicated to delivering the best possible product and ensuring customer satisfaction. We prioritize the needs and expectations of our clients, striving to exceed their expectations with every project. We believe in the power of effective communication and collaboration, working closely with our clients to understand their vision, goals, and requirements.
+          Our team of skilled website developers goes the extra mile to ensure that each project is meticulously crafted, paying attention to detail and focusing on quality. We are committed to delivering websites that not only meet our clients' specifications but also resonate with their target audience. From the initial concept to the final launch, we take pride in our work and constantly strive for excellence.
+          We understand that every business is unique, and we tailor our approach accordingly. By carefully listening to our clients' needs and objectives, we can create customized solutions that align with their brand identity and values. Through regular communication and collaboration, we keep our clients involved in the development process, seeking their feedback and making necessary adjustments to ensure their satisfaction.
+          Our dedication to continuous improvement drives us to stay updated with the latest industry trends and technologies. We invest in ongoing training and development for our team, equipping them with the knowledge and skills necessary to deliver cutting-edge websites. By leveraging innovative tools and techniques, we create digital experiences that captivate and engage users, leaving a lasting impression.
+          </p>
           <div style={{ textAlign: 'justify' }}>
             {randomFacts.map((fact, index) => (
               <p key={index}>{fact}</p>

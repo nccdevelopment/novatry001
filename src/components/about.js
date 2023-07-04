@@ -101,11 +101,7 @@ function About() {
   }, [typedText]);
 
   const companyDescription =
-   'NovaCore Tech Consulting offers you a wide variety of online tools to power your online presence, from Wall Street to NASA, we have expertise in building websites and applications suitable for what you and your company will need. With specific packages and price models fit just for what you need, our dedicated team is here to support you every step of the way, providing ongoing maintenance, updates, and technical assistance to keep your digital presence running smoothly and seamlessly.'
-
-  const servicesOffered =
-    'At the heart of our approach lies a deep understanding of your unique needs and aspirations for your business. We believe that a website should not only reflect your brands identity but also engage and inspire your audience. By taking the time to listen, learn, and collaborate, we ensure that every aspect of your website is meticulously tailored to captivate and connect with your target users. Lets build something extraordinary together!';
-
+   'NovaCore Tech Consulting offers you a wide variety of online tools to power your online presence, from Wall Street to NASA, we have expertise in building websites and applications suitable for what you and your company will need. With specific packages and price models fit just for what you need, our dedicated team is here to support you every step of the way, providing ongoing maintenance, updates, and technical assistance to keep your digital presence running smoothly and seamlessly. At the heart of our approach lies a deep understanding of your unique needs and aspirations for your business. We believe that a website should not only reflect your brands identity but also engage and inspire your audience. By taking the time to listen, learn, and collaborate, we ensure that every aspect of your website is meticulously tailored to captivate and connect with your target users. Lets build something extraordinary together!';
   const customerFocus =
     'Meet the individuals behind NovaCore! The team is Ankita, Corey, Himanshi and Jurgen, all Computer Science graduates who went to Queens College. Amidst lines of code and late-night study sessions, a bond was formed—an unbreakable connection that would lay the foundation for an extraordinary journey. That journey has led us to building NovaCore so we can pursue our passions to help people using technology, allowing us to help small businesses grow and have the online presence that is so crucial in today’s tech driven world. As each one of us has individually excelled in our own respective areas from working as a paralegal, developing an API for a shipping company as well as multiple companies, interning at NASA and even leading a team on building a NanoSatellite! As we work together and gain ground on building businesses, we aim to help you build your brand the best you can.';
 
@@ -131,19 +127,17 @@ function About() {
         </div>
       </section>
       <section style={{ backgroundColor: '#333333', color: 'white', padding: '15px' }}>
-      <section id="about-section" style={{ margin: '100px' }}>
+      <section id="about-section" style={{ margin: '40px' }}>
           <h2>About NovaCore</h2>
           <p>Welcome to our website! We are a passionate team dedicated to providing high-quality products and excellent customer service.</p>
-          <p style={{ textAlign: 'justify', lineHeight: '1.5', letterSpacing: '1px' }}>{companyDescription}</p>
-          <p style={{ textAlign: 'justify', lineHeight: '1.5', letterSpacing: '1px' }}>{servicesOffered}</p>
-          <p style={{ textAlign: 'justify', lineHeight: '1.5', letterSpacing: '1px' }}>{customerFocus}</p>
+          <p> NovaCore Tech Consulting offers you a wide variety of online tools to power your online presence, from Wall Street to NASA, we have expertise in building websites and applications suitable for what you and your company will need. With specific packages and price models fit just for what you need, our dedicated team is here to support you every step of the way, providing ongoing maintenance, updates, and technical assistance to keep your digital presence running smoothly and seamlessly. At the heart of our approach lies a deep understanding of your unique needs and aspirations for your business. We believe that a website should not only reflect your brands identity but also engage and inspire your audience. By taking the time to listen, learn, and collaborate, we ensure that every aspect of your website is meticulously tailored to captivate and connect with your target users. Lets build something extraordinary together!</p>
           <div style={{ textAlign: 'justify' }}>
             {randomFacts.map((fact, index) => (
               <p key={index}>{fact}</p>
             ))}
           </div>
         </section>  
-        <section id="content-section" style={{ padding: '100px', margin: '10px'}}>
+        <section id="content-section" style={{ padding: '55px', margin: '1px'}}>
           <h2>Our Experinces</h2>
           <div className="box-container">
             <div className="box">
@@ -174,16 +168,6 @@ function About() {
                 <p>With our expertise in AI, we have successfully automated sales calls and integrated multiple APIs to streamline product shipments for an online retail company. Additionally, we have developed efficient payment transaction systems catering to the specific needs of small businesses.</p>
               </div>
             </div>
-          </div>
-        </section>
-        <section id="about-section" style={{ margin: '100px' }}>
-          <h2>About Us</h2>
-          <p>Welcome to our website! We are a passionate team dedicated to providing high-quality products and excellent customer service.</p>
-          <p style={{ textAlign: 'justify', lineHeight: '1.5', letterSpacing: '1px' }}>{customerFocus}</p>
-          <div style={{ textAlign: 'justify' }}>
-            {randomFacts.map((fact, index) => (
-              <p key={index}>{fact}</p>
-            ))}
           </div>
         </section>
       </section>

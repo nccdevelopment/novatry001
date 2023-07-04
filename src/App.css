@@ -18,7 +18,6 @@ h3 {
   font-size: 24px; /* Adjust the font size as desired */
 }
 
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -31,7 +30,7 @@ h3 {
 }
 
 .App-link {
-  color: #61dafb;
+  color: gold;
 }
 
 @keyframes App-logo-spin {
@@ -113,7 +112,7 @@ p{
 }
 
 body {
-  background: linear-gradient(#fff, #eee, #ddd, #ccc, #bbb, #aaa, #000, #000, #000, #000, #000, #000, #000, #000, #000,  #111, #222, #333, #444, #555, #666, #777, #888, #999, #aaa, #bbb, #ccc, #ddd, #eee, #fff);
+  background: linear-gradient(#000, #000, #000, #000, #000, #000, #000, #000, #000, #000, #000, #000, #000, #000, #000,  #111, #222, #333, #444, #555, #666, #777, #888, #999, #aaa, #bbb, #ccc, #ddd, #eee, #fff);
   margin: 0;
   padding: 0;
 }
@@ -336,7 +335,7 @@ body {
 .box {
   position: relative;
   width: 100%;
-  height: 400px; /* Adjust the height as desired */
+  height: 500px; /* Adjust the height as desired */
   border: 5px solid #fff; /* White border */
   background-color: rgb(0, 0, 0);
   overflow: hidden;
@@ -553,4 +552,200 @@ button:hover {
   font-size: 24px;
 }
 
+@media screen and (max-width: 768px) {
+
+  .App-logo {
+    height: 30vmin;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .App-header {
+    font-size: calc(10px + 2vmin);
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  h4.typing-text {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  h6 {
+    font-size: 10px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .section-p1 {
+    padding: 20px 40px;
+  }
+
+  .section-m1 {
+    margin: 20px 0;
+  }
+
+  #header {
+    flex-direction: row;
+  }
+
+  .logo {
+    left: 0;
+  }
+
+  #navbar {
+    flex-direction: row;
+  }
+
+  #navbar li {
+    padding: 10px 0;
+    right: 0;
+  }
+
+  #hero {
+    min-height: 50vh;
+  }
+
+  .typing-text {
+    font-size: 24px;
+  }
+
+  #hero h4 {
+    font-size: 16px;
+  }
+
+  #hero p {
+    font-size: 14px;
+  }
+
+  #hero button {
+    font-size: 16px;
+  }
+
+  .box-container {
+    grid-template-columns: repeat(absolute, minmax(200px, 1fr));
+  }
+
+  .box {
+    height: 300px;
+  }
+
+  .background-image-container {
+    padding-bottom: 75%; /* 4:3 aspect ratio (adjust as needed) */
+  }
+
+  .centered-box {
+    width: 100%;
+  }
+
+  .contact-container {
+    padding: 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-contact {
+    margin-bottom: 20px;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .App-logo {
+    height: 20vmin;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  h4.typing-text {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  h6 {
+    font-size: 8px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .section-p1 {
+    padding: 10px 20px;
+  }
+
+  .section-m1 {
+    margin: 10px 0;
+  }
+
+  #navbar li {
+    padding: 5px 0;
+  }
+
+  .typing-text {
+    font-size: 20px;
+  }
+
+  #hero h4 {
+    font-size: 14px;
+  }
+
+  #hero p {
+    font-size: 12px;
+  }
+
+  #hero button {
+    font-size: 14px;
+  }
+
+  .box-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .box {
+    height: 200px;
+    width: 300px;
+  }
+
+  .background-image-container {
+    padding-bottom: 100%; /* 1:1 aspect ratio (adjust as needed) */
+  }
+
+  .centered-box {
+    width: 95%;
+  }
+
+  .contact-container {
+    padding: 10px;
+  }
+}
 
